@@ -30,3 +30,8 @@ body{
     
 }
 
+ul li {
+    padding-bottom: 10px;
+    font-family: vollkorn, sans-serif;
+}
+
