@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Vollkorn&display=swap');
+
 body{
     width: 100%;
     min-height: 100vh;
@@ -19,6 +21,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 10px 10px 5px 5px darkgray;
+    box-shadow: 8px 8px 7px 7px darkgray;
+}
+
+#question{
+    font-size: 2rem;
+    font-family: Poppins, sans-serif;
+    
 }
 
