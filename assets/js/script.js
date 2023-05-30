@@ -24,8 +24,19 @@ const quizContent = [
 ];
 
 const quiz = document.getElementById ('quiz')
-const question = document.getElementById ('question')
-const answerOne = document.getElementById ('answer1')
-const answerTwo = document.getElementById ('answer2')
-const answerThree = document.getElementById ('answer3')
+const questions = document.getElementById ('questions')
+const answerOne = document.getElementById ('answerone')
+const answerTwo = document.getElementById ('answertwo')
+const answerThree = document.getElementById ('answerthree')
 const submitButton = document.getElementById ('submit')
+let currentIndex = 0
+let score = 0
+loadQuizData()
+
+function loadQuizData() {
+  const currentQuizData = quizContent[currentIndex]
+  questions.innerHTML = currentQuizData.question
+  answerOne.innerHTML = currentQuizData.ans1
+  answerTwo.innerHTML = currentQuizData.ans2
+  answerThree.innerHTML = currentQuizData.ans3
+}
