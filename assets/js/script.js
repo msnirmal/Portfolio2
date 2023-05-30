@@ -1,24 +1,31 @@
 const quizContent = [
     {
         question: "What is a group of lions called?",
-        a: "A flock",
-        b: "A pride",
-        c: "A herd",
-        correct: "b",
+        ans1 : "A flock",
+        ans2 : "A pride",
+        ans3 : "A herd",
+        correct: "ans2",
     },
     {
         question: "Which bird is sometimes called a flying rat?",
-        a: "A sparrow",
-        b: "A pigeon",
-        c: "A gull",
-        correct: "b",
+        ans1: "A sparrow",
+        ans2: "A pigeon",
+        ans3: "A gull",
+        correct: "ans2",
     },
     {
         question: "Which animal recognizes itself in the mirror?",
-        a: "A cat",
-        b: "A horse",
-        c: "A chimpanzee",
-        correct: "c",
+        ans1: "A cat",
+        ans2: "A horse",
+        ans3: "A chimpanzee",
+        correct: "ans3",
     },
     
 ];
+
+const quiz = document.getElementById ('quiz')
+const question = document.getElementById ('question')
+const answerOne = document.getElementById ('answer1')
+const answerTwo = document.getElementById ('answer2')
+const answerThree = document.getElementById ('answer3')
+const submitButton = document.getElementById ('submit')
